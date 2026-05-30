@@ -38,7 +38,8 @@ It supports JWT authentication and role-based access control (USER / ADMIN).
 ---
 
 ## 📂 Project Structure
-  rbac-assignment/
+```
+ rbac-assignment/
 │
 ├── auth-rbac-backend/
 │ ├── src/
@@ -57,5 +58,6 @@ It supports JWT authentication and role-based access control (USER / ADMIN).
 │ ├── package.json
 │ ├── vite.config.ts
 │
-├── README.md
-└── screenshots/
+├── screenshots/
+└── README.md
+```
