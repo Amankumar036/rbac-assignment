@@ -38,24 +38,24 @@ It supports JWT authentication and role-based access control (USER / ADMIN).
 ---
 
 ## 📂 Project Structure
-   rbac-assignment/
+  rbac-assignment/
 │
 ├── auth-rbac-backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   └── resources/
-│   ├── pom.xml
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/
+│ │ │ └── resources/
+│ ├── pom.xml
 │
 ├── auth-rbac-fronted/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── pages/
-│   │   ├── routes/
-│   │   ├── utils/
-│   │   └── App.tsx
-│   ├── package.json
-│   ├── vite.config.ts
+│ ├── src/
+│ │ ├── api/
+│ │ ├── pages/
+│ │ ├── routes/
+│ │ ├── utils/
+│ │ └── App.tsx
+│ ├── package.json
+│ ├── vite.config.ts
 │
 ├── README.md
 └── screenshots/
