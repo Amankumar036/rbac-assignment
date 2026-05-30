@@ -61,3 +61,44 @@ It supports JWT authentication and role-based access control (USER / ADMIN).
 ├── screenshots/
 └── README.md
 ```
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](screenshots/login.png)
+
+👉 User enters email and password. After successful login, JWT token is generated and role is stored in localStorage.
+
+---
+
+### 📝 Register Page
+![Register](screenshots/register.png)
+
+👉 New user can register by entering name, email, password, and selecting role (USER / ADMIN).
+
+---
+
+### 👤 User Dashboard
+![User Dashboard](screenshots/user-dashboard.png)
+
+👉 This page is accessible only to USER role. It shows user-specific content after login.
+
+👉 After login, JWT token and user role are stored in localStorage and used for authentication and role-based access control.
+
+---
+
+### 🛡️ Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+👉 This page is restricted to ADMIN users only. It shows admin-level features and controls.
+
+👉 After login, JWT token and user role are stored in localStorage and used for authentication and role-based access control.
+
+---
+
+### 🌍 Public Page
+![Public Page](screenshots/public-page.png)
+
+👉 This page is accessible to everyone without login.
+
+
+---
